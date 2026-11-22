@@ -1,6 +1,6 @@
-DOMAINE L’ESCAPADE — mise à jour galerie Les Alpilles
+Domaine L’Escapade — mise à jour galerie Les Alpilles
 
-Téléverser le CONTENU de ce dossier à la racine du dépôt GitHub.
-Le nouveau nom des images (alpilles-2026-...) évite de revoir les anciennes photos en cache.
-La photo principale est la dernière image validée. Les autres vues conservent le drap à pois lorsqu’il apparaît.
-Le reste du site est conservé.
+Décompresser le ZIP et importer TOUS les fichiers à la racine du dépôt GitHub (y compris le dossier assets). Remplacement des fichiers HTML/CSS existants et ajout des six photos sous de nouveaux noms pour éviter le cache navigateur.
+
+Galerie : vue principale validée, nouvelle vue terrasse sans gros bosquet, seconde vue chambre à pois, bureau, douche, sanitaires.
+Attention : plusieurs photographies ont été retouchées par IA. Vérifier que les vues reflètent bien la chambre et les extérieurs avant publication définitive.
