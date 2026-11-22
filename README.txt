@@ -1,16 +1,8 @@
-DOMAINE L’ESCAPADE — SITE V3
+Domaine L’Escapade — accueil V5
 
-Site multipage pour GitHub Pages.
-Cette version reprend l'accueil V2 et toutes les pages avec la photographie validée du 22 novembre 2026.
+Nouvelle accroche dans la bannière : Votre escale professionnelle, en toute liberté.
+Texte sous la bannière : Votre chambre meublée, pour une semaine, un mois ou davantage.
+Photographie validée : assets/domaine-2026.jpg.
 
-Fichiers à déposer à la racine du dépôt GitHub domaine-lescapade :
-index.html
-chambres.html
-espaces.html
-locations.html
-contact.html
-style.css
-assets/domaine.jpg
-
-IMPORTANT : déposer le CONTENU de ce dossier, pas le fichier ZIP.
-Les coordonnées et tarifs nécessitent validation avant publication finale.
+Pour GitHub Pages : transférer les fichiers HTML, style.css et le dossier assets à la racine du dépôt domaine-lescapade.
+Aucune autre page n’a été modifiée.

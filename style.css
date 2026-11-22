@@ -39,3 +39,13 @@
 @keyframes escLift{from{opacity:0;transform:translateY(19px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:760px){.home-v2 .nav-contact{border:0;padding:0}.home-v2 .esc-home-hero{height:590px}.home-v2 .esc-home-prefix{font-size:21px}.home-v2 .esc-home-copy h1{font-size:clamp(51px,12vw,85px);margin-bottom:17px}.home-v2 .esc-home-desc{font-size:16px}.home-v2 .esc-home-summary{flex-wrap:wrap;gap:7px;padding:20px 12px}.home-v2 .esc-home-summary span{width:100%;border-right:0;padding:2px}.home-v2 .esc-home-intro{padding:60px 22px 43px}.home-v2 .esc-home-directory{grid-template-columns:1fr;padding:0 22px 65px;gap:12px}.home-v2 .esc-home-tile{min-height:165px}.home-v2 .esc-home-tile-title{margin-top:14px}.home-v2 .esc-home-bottom{flex-direction:column;align-items:flex-start;padding:47px 25px}}
 @media(prefers-reduced-motion:reduce){.home-v2 .esc-home-photo,.home-v2 .esc-home-location,.home-v2 .esc-home-prefix,.home-v2 .esc-home-copy h1,.home-v2 .esc-home-desc,.home-v2 .esc-home-action{animation:none}}
+
+/* Accueil V5 — hiérarchie des accroches validées */
+.home-v2 .esc-home-prefix{letter-spacing:.1em;margin-bottom:1px}
+.home-v2 .esc-home-desc{font-style:italic;max-width:740px;text-shadow:0 1px 13px rgba(0,0,0,.27)}
+.home-v2 .esc-home-intro{max-width:920px;padding-bottom:57px}
+.home-v2 .esc-home-intro h2{max-width:900px;font-size:clamp(30px,3.8vw,48px);text-wrap:balance}
+.home-v2 .esc-home-intro .esc-intro-lead{color:var(--olive);font-size:clamp(17px,2.1vw,20px);margin:0 auto 15px}
+.home-v2 .esc-home-intro>p:not(.kicker){max-width:780px;margin-left:auto;margin-right:auto}
+.home-v2 .esc-home-intro>p:not(.kicker)+p:not(.kicker){margin-top:14px}
+@media(max-width:760px){.home-v2 .esc-home-desc{font-size:17px;max-width:360px}.home-v2 .esc-home-intro h2{font-size:clamp(30px,8vw,40px)}}
