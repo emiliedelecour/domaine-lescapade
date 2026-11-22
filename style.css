@@ -49,3 +49,45 @@
 .home-v2 .esc-home-intro>p:not(.kicker){max-width:780px;margin-left:auto;margin-right:auto}
 .home-v2 .esc-home-intro>p:not(.kicker)+p:not(.kicker){margin-top:14px}
 @media(max-width:760px){.home-v2 .esc-home-desc{font-size:17px;max-width:360px}.home-v2 .esc-home-intro h2{font-size:clamp(30px,8vw,40px)}}
+
+/* Chambre Les Alpilles et listing des cinq chambres */
+.room-list{padding-top:55px}
+.room-feature{display:grid;grid-template-columns:1.12fr 1fr;min-width:0;background:#fff;color:inherit;text-decoration:none;overflow:hidden}
+.room-feature-photo{min-height:340px;overflow:hidden}
+.room-feature-photo img{display:block;width:100%;height:100%;min-height:340px;object-fit:cover;transition:transform .4s ease}
+.room-feature:hover .room-feature-photo img{transform:scale(1.02)}
+.room-feature-text{padding:clamp(25px,5vw,60px);display:flex;flex-direction:column;justify-content:center;align-items:flex-start}
+.room-feature-text h2{font-size:clamp(38px,5vw,61px)}
+.room-feature-text p{color:var(--muted);margin:0}
+.room-link{margin-top:27px;color:var(--olive);font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;border-bottom:1px solid var(--olive);padding-bottom:5px}
+.room-mini-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:22px}
+.room-mini{background:#fff;padding:35px 33px;min-height:180px;border-top:2px solid #b2bca9}
+.room-index{font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:#6a7864}
+.room-mini h3{font-size:29px;margin:10px 0 5px}
+.room-mini p{font-size:14px;margin:0 0 13px;color:var(--muted)}
+.room-muted{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:#8a8c86}
+.room-heading{text-align:center;padding:42px 22px 24px;max-width:1000px;margin:auto}
+.room-back{display:inline-block;color:var(--olive);font-size:13px;text-decoration:none;margin-bottom:35px;border-bottom:1px solid #bdc5b6}
+.room-heading h1{font:normal clamp(51px,7vw,89px)/1.05 Georgia,serif;color:var(--olive);margin:10px 0}
+.room-heading>p:last-child{color:var(--muted);font-size:16px}
+.room-gallery{padding-top:22px;padding-bottom:55px}
+.room-gallery figure{margin:0;overflow:hidden;background:#e5e3dd;position:relative}
+.room-gallery img{display:block;width:100%;height:100%;object-fit:cover}
+.room-gallery-main{height:clamp(300px,53vw,640px)}
+.room-gallery-main img{object-position:center 56%}
+.room-gallery figcaption{position:absolute;left:15px;bottom:14px;padding:5px 10px;background:rgba(255,255,255,.92);color:var(--olive);font-size:11px;letter-spacing:.09em;text-transform:uppercase}
+.room-gallery-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin-top:13px}
+.room-gallery-grid figure{aspect-ratio:4/5}
+.room-details{padding-top:12px;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
+.room-details p{color:var(--muted);max-width:480px}
+.room-equipment{list-style:none;margin:7px 0 0;padding:0;display:grid;gap:0;background:white}
+.room-equipment li{border-bottom:1px solid #e9e9e2;padding:14px 21px;font-size:15px}
+.room-equipment li:last-child{border:0}
+.room-equipment span{color:var(--olive);margin-right:13px}
+.room-common{background:#e9e9df}
+.room-common-inner{max-width:1160px;margin:auto;padding:45px 22px;display:flex;gap:30px;align-items:center;justify-content:space-between}
+.room-common-inner>div{max-width:700px}
+.room-common-inner p:last-child{color:var(--muted)}
+.room-common-inner .btn{flex-shrink:0}
+@media(max-width:760px){.room-feature{grid-template-columns:1fr}.room-feature-photo,.room-feature-photo img{min-height:260px}.room-feature-text{padding:28px}.room-mini-grid{grid-template-columns:1fr}.room-mini{min-height:0;padding:25px}.room-gallery-main{height:300px}.room-gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.room-gallery-grid figure{aspect-ratio:4/5}.room-details{grid-template-columns:1fr;gap:15px}.room-common-inner{display:block}.room-common-inner .btn{margin-top:12px}}
+@media(prefers-reduced-motion:reduce){.room-feature-photo img{transition:none}}
