@@ -1,1 +1,64 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Chambres meublées à Saint-Chamas, avec espaces privatifs et communs. Locations à la semaine et au mois."><title>Accueil | Domaine L’Escapade</title><link rel="stylesheet" href="style.css"></head><body><header><nav class="nav" aria-label="Menu principal"><a class="logo" href="index.html">Domaine L’Escapade</a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">☰ Menu</button><div class="links" id="nav-links"><a href="index.html" aria-current="page">Accueil</a><a href="chambres.html">Nos chambres</a><a href="espaces.html">Espaces communs</a><a href="locations.html">Locations</a><a href="contact.html">Contact</a></div></nav></header><main><section class="hero"><img src="assets/domaine.jpg" alt="Domaine L’Escapade à Saint-Chamas, façade en pierre et terrasse"><div class="hero-content"><div class="overline">Saint-Chamas · Provence</div><h1>L’Escapade</h1><p class="tagline">Cinq chambres meublées avec salle de bain et WC privatifs<br>Locations à la semaine, au mois ou pour une durée prolongée</p><a class="btn" href="chambres.html">Découvrir nos chambres</a></div></section><section class="content center"><p class="kicker">Bienvenue</p><h2>Un lieu où séjourner à votre rythme</h2><p>Au Domaine L’Escapade, nous proposons cinq chambres meublées à Saint-Chamas, adaptées notamment aux déplacements professionnels et aux séjours prolongés. Chacun dispose de son espace privatif et profite d’équipements communs pour le quotidien.</p><div class="cards"><article class="card"><span class="icon" aria-hidden="true">🛏️</span><h3>Nos chambres</h3><p>Cinq chambres avec salle de bain et WC privatifs.</p><a class="btn outline" href="chambres.html">Voir les chambres</a></article><article class="card"><span class="icon" aria-hidden="true">🍳</span><h3>Espaces communs</h3><p>Cuisine équipée et espace buanderie à partager.</p><a class="btn outline" href="espaces.html">Découvrir</a></article><article class="card"><span class="icon" aria-hidden="true">📅</span><h3>Vos locations</h3><p>À la semaine, au mois ou sur une durée plus longue.</p><a class="btn outline" href="locations.html">Les formules</a></article></div></section><section class="contact-cta"><p class="kicker">Votre séjour</p><h2>Une question sur les disponibilités ?</h2><p>Indiquez-nous les dates et la durée de location envisagées pour recevoir les renseignements utiles.</p><a class="btn" href="contact.html">Nous contacter</a></section></main><footer>© 2026 Domaine L’Escapade · Saint-Chamas<br><a href="index.html">Accueil</a> · <a href="chambres.html">Nos chambres</a> · <a href="espaces.html">Espaces communs</a> · <a href="locations.html">Locations</a> · <a href="contact.html">Contact</a></footer><script>const b=document.querySelector('.menu-toggle');const links=document.querySelector('.links');b.addEventListener('click',()=>{const open=links.classList.toggle('open');b.setAttribute('aria-expanded',String(open));});</script></body></html>
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Au Domaine L’Escapade à Saint-Chamas, cinq chambres meublées avec salle de bain et WC privatifs, disponibles à la semaine, au mois ou pour un séjour prolongé.">
+  <title>Domaine L’Escapade | Chambres meublées à Saint-Chamas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home-v2">
+  <header>
+    <nav class="nav" aria-label="Navigation principale">
+      <a class="logo" href="index.html">Domaine <em>L’Escapade</em></a>
+      <button class="menu-toggle" type="button" aria-controls="nav-links" aria-expanded="false">☰ Menu</button>
+      <div class="links" id="nav-links">
+        <a href="index.html" aria-current="page">Accueil</a>
+        <a href="chambres.html">Nos chambres</a>
+        <a href="espaces.html">Espaces communs</a>
+        <a href="locations.html">Locations</a>
+        <a class="nav-contact" href="contact.html">Nous contacter</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="esc-home-hero" aria-label="Bienvenue au Domaine L’Escapade">
+      <img class="esc-home-photo" src="assets/domaine.jpg" alt="Vue extérieure du Domaine L’Escapade à Saint-Chamas, maison provençale et murs en pierre" fetchpriority="high">
+      <div class="esc-home-shade"></div>
+      <div class="esc-home-copy">
+        <span class="esc-home-location">Saint-Chamas · Provence</span>
+        <p class="esc-home-prefix">Bienvenue au Domaine</p>
+        <h1>L’Escapade</h1>
+        <p class="esc-home-desc">Votre chambre meublée, pour une semaine, un mois ou davantage.</p>
+        <a class="esc-home-action" href="chambres.html">Découvrir nos chambres <span aria-hidden="true">→</span></a>
+      </div>
+      <span class="esc-home-corner" aria-hidden="true">01 / 05</span>
+    </section>
+    <section class="esc-home-summary" aria-label="Les points forts">
+      <span><strong>05</strong> chambres meublées</span>
+      <span><strong>100 %</strong> sanitaires privatifs</span>
+      <span><strong>À la semaine ou au mois</strong> & séjours prolongés</span>
+    </section>
+    <section class="esc-home-intro">
+      <p class="kicker">Une adresse à Saint-Chamas</p>
+      <h2>Un hébergement pensé pour les séjours qui durent.</h2>
+      <p>Le Domaine L’Escapade propose cinq chambres meublées, chacune avec sa salle de bain et ses WC privatifs. Une cuisine commune équipée et un espace buanderie facilitent la vie quotidienne, notamment lors des déplacements professionnels et des séjours prolongés.</p>
+    </section>
+    <section class="esc-home-directory" aria-label="Explorer le domaine">
+      <a class="esc-home-tile" href="chambres.html"><span class="esc-home-number">01</span><span class="esc-home-tile-title">Les chambres</span><span class="esc-home-tile-note">5 espaces privatifs à découvrir</span><span class="esc-home-arrow" aria-hidden="true">↗</span></a>
+      <a class="esc-home-tile" href="espaces.html"><span class="esc-home-number">02</span><span class="esc-home-tile-title">La vie sur place</span><span class="esc-home-tile-note">Cuisine équipée et buanderie</span><span class="esc-home-arrow" aria-hidden="true">↗</span></a>
+      <a class="esc-home-tile" href="locations.html"><span class="esc-home-number">03</span><span class="esc-home-tile-title">Les locations</span><span class="esc-home-tile-note">Semaine, mois et longue durée</span><span class="esc-home-arrow" aria-hidden="true">↗</span></a>
+    </section>
+    <section class="esc-home-bottom"><div><p class="kicker">Une demande de séjour ?</p><h2>Parlons de vos dates.</h2></div><a class="esc-home-action" href="contact.html">Demander les disponibilités <span aria-hidden="true">→</span></a></section>
+  </main>
+  <footer>© 2026 Domaine L’Escapade · Saint-Chamas<br><a href="index.html">Accueil</a> · <a href="chambres.html">Nos chambres</a> · <a href="espaces.html">Espaces communs</a> · <a href="locations.html">Locations</a> · <a href="contact.html">Contact</a></footer>
+  <script>
+    const menuButton=document.querySelector('.menu-toggle');
+    const menuLinks=document.querySelector('.links');
+    menuButton.addEventListener('click',()=>{
+      const isOpen=menuLinks.classList.toggle('open');
+      menuButton.setAttribute('aria-expanded',String(isOpen));
+    });
+  </script>
+</body>
+</html>
