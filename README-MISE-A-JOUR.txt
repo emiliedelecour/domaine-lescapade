@@ -1,8 +1,6 @@
-Domaine L’Escapade — Site actuel
+DOMAINE L’ESCAPADE — mise à jour galerie Les Alpilles
 
-Déposez le contenu de ce dossier à la racine du dépôt GitHub domaine-lescapade.
-Le fichier index.html et toutes les autres pages doivent rester à la racine.
-Le dossier assets doit rester dans sa structure, avec ses images.
-
-Nouveautés : chambres.html affiche les 5 chambres, alpilles.html propose la galerie et les équipements de la chambre 01.
-Photos : originales légèrement éclaircies, sans changement de mobilier.
+Téléverser le CONTENU de ce dossier à la racine du dépôt GitHub.
+Le nouveau nom des images (alpilles-2026-...) évite de revoir les anciennes photos en cache.
+La photo principale est la dernière image validée. Les autres vues conservent le drap à pois lorsqu’il apparaît.
+Le reste du site est conservé.
